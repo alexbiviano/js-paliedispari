@@ -10,7 +10,7 @@ console.log(evenOdd);
 do {
   var numero = parseInt(prompt('Scegli un numero da 1 a 5'))
   console.log(numero);
-} while(numero > 5 || numero == 0)
+} while(numero > 5 || numero == 0) 
 
 var random = Math.floor(Math.random() * (5 - 1) ) + 1;
 console.log(random);

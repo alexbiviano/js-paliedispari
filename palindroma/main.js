@@ -9,6 +9,6 @@ const userInput = prompt("Inserisci una parola:");
 // Verifichiamo se la parola è palindroma  
 if (isPalindrome(userInput)) {  
     console.log(`La parola '${userInput}' è palindroma.`);  
-} else {  
+} else {   
     console.log(`La parola '${userInput}' non è palindroma.`);  
 }  
